@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.749);
+    background-color: #2b0347;
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-image: url("/ewqe-master/ewqe-master/img/background.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vp;
+}
+
+.header {
+    margin: 5%;
+    text-align: center;
+    font-size: 60px;
+    border-radius: 10px;
+    height: 70vh;
+}
+
+h1 {
+    margin: 0;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; 
+
+}
+h2 {
+    margin: 0;
+    color: #000000;
+    text-shadow: -1px -1px 0 #09ff00, 1px -1px 0 #09ff00, -1px 1px 0 #09ff00, 1px 1px 0 #09ff00; 
+
+}
+
+.menu {
+    color: #2b0347;
+    font-weight:900;
+    background-color: #37ff14d0;
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    border-radius: 10px;
+    margin: 5%;
+    padding-bottom: 0%;
+}
+
+.menu-item {
+    
+    background-color: #09ff00;
+    border-radius: 10px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;  
+}
+
+.section {
+    margin: 5%;
+    padding-top: 7%;
+    text-align: center;
+    background-color: #794c979a;
+    border-radius: 10px;
+    height: 80vh;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: auto;
+    margin-top: 20px;
+}
+#content_left {
+    margin-left: 15%;
+    width: 100%;
+    height: 70vh;
+    border-radius: 10px;
+  }
+#content_right {
+    width: 100%;
+    height: 70vh;
+    border-radius: 10px;
+  }
+
+
+#progress-bar {
+    width: auto;
+    height: 18px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    margin: 10px;
+    color: black;
+    font-size: auto;
+    border-color: #000000;
+    border: 5px;
+
+  }
+  
+  #progress, #progress1, #progress2, #progress3, #progress4, #progress5, #progress6 {
+    width: 0%;
+    height: 100%;
+    background-color: #37ff14d0;
+    transition: width 2s ease-in-out;
+    border-radius: 10px;
+    color: black;
+    font-size: auto;
+    border-color: #000000;
+    border: 5px;
+  }
+
+
