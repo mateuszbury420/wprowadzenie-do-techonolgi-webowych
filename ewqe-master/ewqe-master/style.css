@@ -4,7 +4,7 @@ body {
     background-color: #2b0347;
     background-repeat: no-repeat;
     background-size:100%;
-    background-image: url("/ewqe-master/ewqe-master/img/background.jpg");
+    background-image: url("/ewqe-master/img/background.jpg");
     background-position: center center;
     background-attachment: fixed;
     height: 100vp;
@@ -15,7 +15,7 @@ body {
     text-align: center;
     font-size: 60px;
     border-radius: 10px;
-    height: 70vh;
+    height: 65vh;
 }
 
 h1 {
@@ -46,8 +46,16 @@ h2 {
 }
 
 .menu-item {
+    border-radius: 10px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;  
+}
+
+.menu-item:hover {
     
-    background-color: #09ff00;
+    background-color: #29ff21;
     border-radius: 10px;
     cursor: pointer;
     padding-left: 10px;
@@ -70,6 +78,25 @@ h2 {
     height: auto;
     margin-top: 20px;
 }
+#footer{
+    font-size: 15px;
+    margin: 5%;
+    margin-bottom: 0%;
+    color: #29ff21;
+    text-align: center;
+    background-color: #0000009a;
+    border-radius: 10px;
+    height: 40px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+p{
+    padding: 0%;
+    margin: auto;
+}
+
 #content_left {
     margin-left: 15%;
     width: 100%;
@@ -109,3 +136,44 @@ h2 {
   }
 
 
+  #contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #contact form {
+    width: 300px;
+  }
+  
+  #contact label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  #contact input,
+  #contact textarea {
+    align-items: center;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+
+  #message{
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+  
+  #contact button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 50px;
+  }
