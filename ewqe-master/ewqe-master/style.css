@@ -5,10 +5,9 @@ body {
   background-color: #2b0347;
   background-repeat: no-repeat;
   background-size: 100%;
-  background-image: url("/ewqe-master/img/background.jpg");
+  background-image: url("/ewqe-master/img/vaporwave.gif");
   background-position: center center;
   background-attachment: fixed;
-  height: 100vp;
   overflow-x: hidden;
 }
 .header {
@@ -60,7 +59,7 @@ h2 {
   margin: 5%;
   padding-top: 7%;
   text-align: center;
-  background-color: #794c979a;
+  background-color: #794c97cb;
   border-radius: 10px;
   height: 80vh;
 }
@@ -89,14 +88,13 @@ h2 {
   height: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
-
 }
 p {
   padding: 0%;
   margin: auto;
 }
 #content_left {
-  margin-left: 15%;
+  margin-left: 7%;
   width: 100%;
   height: 70vh;
   border-radius: 10px;
