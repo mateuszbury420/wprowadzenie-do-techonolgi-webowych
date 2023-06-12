@@ -22,10 +22,10 @@ function scrollToSection(sectionId) {
 
     var progressBar_HTML = document.getElementById('progress5');
     progressBar_HTML.style.width = reset + '%';
-    
+
     var progressBar_HTML = document.getElementById('progress6');
     progressBar_HTML.style.width = reset + '%';
-    
+
 }
 
 function scrollToTop() {
@@ -66,5 +66,5 @@ function updateProgressBar() {
 
     var progressBar_HTML = document.getElementById('progress6');
     progressBar_HTML.style.width = python_skill + '%';
-    
-  }
+
+}
